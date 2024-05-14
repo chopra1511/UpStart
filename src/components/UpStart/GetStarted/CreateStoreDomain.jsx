@@ -17,7 +17,7 @@ const CreateStoreDomain = () => {
           </h1>
         </div>
         <div className="w-full mb-5 ">
-          <form className="flex flex-col gap-4 text-left" onSubmit={() => {navigate("/get-started/store-name");}}>
+          <form className="flex flex-col gap-4 text-left" onSubmit={() => {navigate("/UpStart/get-started/store-name");}}>
             <div className="flex justify-between py-4 px-4 relative rounded-xl border-2 border-[#e0e0e0] w-full">
               <input
                 type="text"

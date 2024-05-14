@@ -42,7 +42,7 @@ const HomePage = () => {
             variant="contained"
             size="large"
             onClick={() => {
-              navigate("/get-started");
+              navigate("/UpStart/get-started");
             }}
             sx={{
               fontFamily: "Poppins",

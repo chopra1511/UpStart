@@ -16,7 +16,7 @@ const LinkEmail = () => {
           </h1>
         </div>
         <div className="w-full mb-5 ">
-          <form className="flex flex-col gap-4 text-left" onSubmit={() => {navigate("/get-started/store-category");}}>
+          <form className="flex flex-col gap-4 text-left" onSubmit={() => {navigate("/UpStart/get-started/store-category");}}>
             <div>
               <input
                 type="email"

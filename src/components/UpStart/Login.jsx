@@ -24,7 +24,7 @@ const Login = () => {
             <form
               className="flex flex-col gap-4 text-left"
               onSubmit={() => {
-                navigate("/get-started/create-store");
+                navigate("/UpStart/get-started/create-store");
               }}
             >
               <input

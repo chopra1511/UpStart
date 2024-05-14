@@ -89,7 +89,7 @@ const GetStarted = () => {
         variant="contained"
         size="large"
         onClick={() => {
-          navigate("/get-started/loginpage");
+          navigate("/UpStart/get-started/loginpage");
         }}
         sx={{
           fontFamily: "Poppins",

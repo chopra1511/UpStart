@@ -65,7 +65,7 @@ const SelectCategory = () => {
           variant="contained"
           size="large"
                   type="submit"
-                  onClick={() => {navigate("/get-started/category");}}
+                  onClick={() => {navigate("/UpStart/get-started/category");}}
           sx={{
             fontFamily: "Poppins",
             textTransform: "capitalize",
