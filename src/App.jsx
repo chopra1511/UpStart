@@ -10,7 +10,7 @@ import ShowCategory from "./components/UpStart/GetStarted/ShowCategory";
 
 function App() {
   const router = createBrowserRouter([
-    { path: "/UpStart", element: <HomePage /> },
+    { path: "/UpStart/", element: <HomePage /> },
     { path: "/UpStart/get-started", element: <GetStarted /> },
     { path: "/UpStart/get-started/loginpage", element: <LoginPage /> },
     { path: "/UpStart/get-started/create-store", element: <CreateStore /> },

@@ -2,7 +2,7 @@
   "name": "upstart",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/chopra1511/UpStart",
+  "homepage": "https://chopra1511.github.io/UpStart",
   "type": "module",
   "scripts": {
     "dev": "vite --host",
