@@ -3,6 +3,7 @@ import ArrowCircleRightRoundedIcon from "@mui/icons-material/ArrowCircleRightRou
 import TipsAndUpdatesRoundedIcon from "@mui/icons-material/TipsAndUpdatesRounded";
 import { useState } from "react";
 import StoreName from "./CreateStoreName";
+import nameGif from "../../../assets/gif.gif"
 
 const CreateStore = () => {
   const [storeName, setStoreName] = useState(true);
@@ -12,7 +13,7 @@ const CreateStore = () => {
         <section className="sm:w-2/3 sm:h-2/3 flex justify-evenly flex-col sm:flex-row items-center gap-10">
           <div className="h-full flex items-center">
             <img
-              src="/src/assets/gif.GIF"
+              src={nameGif}
               alt="Login"
               className="w-80 sm:w-96"
             />

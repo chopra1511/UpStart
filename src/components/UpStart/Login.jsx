@@ -41,11 +41,9 @@ const Login = () => {
                 required
               />
               <div className="text-center">
-                <button type="submit">
-                  <IconButton color="success">
-                    <Fingerprint fontSize="large" />
-                  </IconButton>
-                </button>
+                <IconButton color="success" type="submit">
+                  <Fingerprint fontSize="large" />
+                </IconButton>
               </div>
             </form>
           </div>
